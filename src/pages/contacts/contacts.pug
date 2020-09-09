@@ -1,0 +1,12 @@
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+	body
+		include ../../components/header/header.pug
+		h1 Contacts
+		p This page for contacts...
+		form(name='contacts-from')
+			input(name='person', type='text')
+			input(name='tel', type='tel')
+			button(type='submit') Send

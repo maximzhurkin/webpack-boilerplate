@@ -1,0 +1,11 @@
+header.header
+	.header__logo
+		include ../logo/logo.pug
+	.header__burger
+		button.burger(type='button', data-action='show-main-menu') Menu
+	.header__menu
+		ul.header-menu
+			li.header-menu__item
+				a.link.header-menu__link(href='/') Index
+			li.header-menu__item
+				a.link.header-menu__link(href='/contacts.html') Contacts

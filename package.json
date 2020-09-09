@@ -1,0 +1,48 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Webpack boilerplate with pug/stylus/es6 multiple pages",
+  "author": "Max Zhurkin",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --watch --open --config ./configs/webpack.development.js",
+    "build": "webpack --config ./configs/webpack.production.js"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 3 version"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "css-minimizer-webpack-plugin": "^1.1.3",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "html-webpack-pug-plugin": "^2.0.0",
+    "mini-css-extract-plugin": "^0.11.0",
+    "path": "^0.12.7",
+    "postcss": "^7.0.32",
+    "postcss-loader": "^4.0.0",
+    "pug": "^3.0.0",
+    "pug-html-loader": "^1.1.5",
+    "pug-loader": "^2.4.0",
+    "raw-loader": "^4.0.1",
+    "stylus": "^0.54.8",
+    "stylus-loader": "^3.0.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.4"
+  },
+  "dependencies": {
+    "inputmask": "^5.0.5",
+    "jquery": "^3.5.1",
+    "jquery-validation": "^1.19.2",
+    "owl.carousel": "^2.3.4"
+  }
+}
